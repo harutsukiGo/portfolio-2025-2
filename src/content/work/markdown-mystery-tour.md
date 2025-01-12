@@ -1,35 +1,28 @@
 ---
-title: Markdown Mystery Tour
-publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+title: Chatbot
+publishDate: 2024-12-05 00:00:00
+img: /portfolio-2025-2/gif/chatbot.gif
+img_alt: chatbot
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Avec mon équipe nous avons élaboré un chatbot basé sur l'univers de Monkey Island ! 
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - PHP
+  - HTML/CSS
+  - LLM
 ---
 
-## Level-two heading
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+> Le plus fun serious-game regroupant des milliers d’étudiants pour développer une application informatique en une nuit
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+En décembre 2024, j’ai eu l’opportunité de participer à la Nuit de l’Info, un événement national où des étudiants, répartis en équipes, relèvent des défis proposés par des entreprises autour de problématiques sociétales. Cet événement se déroule durant la nuit du jeudi 5 décembre au matin du vendredi 6 décembre.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+Cette année, le thème était : « Et si l’océan était un corps humain ? ». Les défis proposés étaient donc majoritairement centrés sur l’océan. Pour ma part, j’ai collaboré avec une partie de mon équipe pour concevoir un chatbot inspiré de l’univers de Monkey Island.
 
-### Level-three heading
+Nous avons utilisé PHP et HTML/CSS pour développer l’interface, et intégré un modèle de langage (LLM), une forme d’intelligence artificielle capable de comprendre et de générer du texte. Plus précisément, nous avons utilisé meta-llama, un modèle LLM développé par Meta, que nous avons trouvé sur Hugging Face, une plateforme regroupant de nombreux modèles de langage. Ensuite, nous avons configuré le chatbot pour qu’il s’exprime comme un pirate, afin que ce dernier s’adapte au registre du jeu.
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
 
-### Level-three heading
+#### Ce que j'ai appris
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+Avant cet événement, je ne connaissais pas les LLM. Cette expérience m’a permis de me familiariser avec leur fonctionnement et leur utilisation, notamment en me documentant sur leurs possibilités et leur intégration dans un projet.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
+Lien du dépot GitHub : [Chatbot Monkey Island](https://github.com/NapstaCap/NeuilleVille/tree/feature/chatbot)
