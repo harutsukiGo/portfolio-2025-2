@@ -3,14 +3,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import CallToAction from "../components/CallToAction.astro";
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="À propos | Manu Andriamihaja" description="À propos Manu Andriamihaja">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				title="À propos de moi"
+				tagline="Découvrez mon parcours, mes compétences et mon cursus scolaire."
 			>
 				<img
 					width="1553"
@@ -24,35 +25,39 @@ import Hero from '../components/Hero.astro';
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						Je m’appelle Manu Andriamihaja, je suis en ce moment en deuxième année de BUT Informatique à l’IUT de Montpellier-Sète, spécialité Intégration d’Applications et Management du Système d’Information.
+
 					</p>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						Depuis toujours, je porte un grand intérêt à l'informatique, mais c'est au cours de mon stage de 3ème dans un complexe informatique de l'entreprise Orange SA que j'ai réellement plongé dans l'univers de l'informatique, en explorant notamment la programmation en Python et l'installation de matériel réseau.
 					</p>
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						Par la suite, en seconde j’ai choisi l’option Science de l’ingénieur et en première la filière STI2D puis j’ai fini par prendre l’option SIN en terminale.
+						Mon parcours actuel m’a conduit à intégrer un BUT, et je dispose de bases solides en développement web et en logiciel, ainsi qu’en bases de données et en gestion de projet.
+						Je projette dans le futur de rester dans le domaine de l'informatique, car c'est un secteur d'avenir qui ne cessera pas de se développer en matière d'emplois. En ce moment, je me projette davantage dans une carrière liée au développement web/logiciel, ou une carrière dans les bases de données.
+					</p>
+					<p>
+						Concernant mes passions, j'adore dessiner des portraits réalistes, mais je m'intéresse aussi beaucoup aux illustrations inspirées par les mangas.
 					</p>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Education</h2>
+				<h2 class="section-title">Diplômes</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p> BUT Informatique (Parcours Intégration d'applications et management du système d'information)  ~ en cours </p>
+					<p>Baccalauréat sciences et technologies de l'industrie et du développement durable (Option SIN) - 2021/2022</p>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Compétences</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<ul>
+						<li>Programmation : Java, C, Python</li>
+						<li>Web : HTML, CSS, PHP</li>
+						<li>Bases de données : SQL, PL/SQL, JDBC</li>
+					</ul>
+					<CallToAction href="/cv/CV ~Andriamihaja Manu.pdf">Mon CV</CallToAction>
+
 				</div>
 			</section>
 		</main>
