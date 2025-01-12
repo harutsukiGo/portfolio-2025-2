@@ -1,22 +1,26 @@
 ---
-title: Duvet Genius
+title: Trains
 publishDate: 2020-03-04 00:00:00
-img: /assets/stock-3.jpg
-img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
+img: /portfolio-2025-2/gif/trains-rec.gif
+img_alt: Trains
 description: |
-  We developed a virtual showcase for the softest bedding imaginable.
+  J'ai développé en binôme, une version en Java du jeu Trains de Hisashi Hayashi ! 
 tags:
-  - Design
-  - Dev
-  - Branding
+  - Java (POO)
+  - Tests unitaires
+  - Git
 ---
+> Embarquez pour une aventure stratégique à Tokyo avec Trains, le jeu de deck-building de Hisashi Hayashi !
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+Au début du deuxième semestre, nous avons découvert le jeu Trains qui est un jeu de deck building. Notre projet consistait à programmer les concepts algorithmiques du jeu en s’imprégnant des principes orienté objet vu en cours comme l’héritage (principe permettant de réutiliser des fonctions dans des sous- classes ce qui évite la duplication de code).
+Ce projet a été réalisé en binôme mi-mars de ma première année de BUT.
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+J’ai dû concevoir des algorithmes de parcours de liste, ou encore de suppression d’élément d’une liste. J’ai également implémenté la conception de tests unitaires permettant de vérifier que les fonctions produisent le résultat attendu, cela nous assurait de respecter les règles fixées par les professeurs.
+À la fin de l'année, j'ai conçu une interface graphique pour le jeu Trains en utilisant Java FX, ce projet fait suite à la partie cité ci-dessus.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+Ce projet m’a offert l’opportunité de faire interagir divers composants graphiques et d’établir une communication entre eux. Une composante du projet portait également sur l’ergonomie de l’application, car il était nécessaire de créer une interface permettant d'afficher différentes cartes du jeu, ainsi que de représenter le plateau et de fournir au joueur actif une vue de ses statistiques.
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#### Ce que j'ai appris
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+J’ai pu développer mes compétences en Java, en termes d’optimisation de fonction ou de logique.
+J'ai également pu évaluer ma compréhension des règles du jeu et ma capacité à les codifier.
