@@ -1,23 +1,35 @@
 ---
-title: Bloom Box
-publishDate: 2019-12-01 00:00:00
+title: CTF - Capture The Flag
+publishDate: 2024-09-24 00:00:00
 img: /assets/stock-2.jpg
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
-  We paired with a cutting-edge music API and a team of horticulturalists
-  to build AI-generated playlists that maximize houseplant health.
+  L'association Yggame nous à confié la mission de créer un CTF pour un de leurs événements.
+
 tags:
-  - Dev
-  - Branding
-  - Backend
+  - Docker
+  - SSH
+  - Python
+  - Git
+  - Wordpress
+  - C
 ---
+>Venez participer au Capture de flag proposé par l'Yggame et testez vos compétences techniques en relevant nos défis !
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+En septembre 2024, l’association Yggame, spécialisée dans l’événementiel sur des jeux vidéo, nous a confié la conception d’un CTF (Capture The Flag). Cette événement consiste à résoudre des défis liés à la cybersécurité. En équipe de quatre nous avons choisi la plateforme CTFd, qui s'est avérée être un excellent compromis en termes de coût et de personnalisation.
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Les défis que je conçu portent sur des thèmes divers et variés. Certains sont développés en langage C, abordant des concepts comme la sérilisation de données, permettant de convertir des structures complexes en une séquence d'octets, ou encore la comparaison de taille de fichiers. D'autres défis reposent sur des commandes bash et le protocole SSH, explorant des thématiques telles que le chiffrement de fichier  et l’exploitation es failles liées aux droits administrateurs.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+J'utilise également Docker pour déployer des conteneurs servant à héberger des défis variés, tels que des sites web ou des environnements Ubuntu. Par exemple, un défi a nécessité la création d'un site vitrine en HTML/CSS, tandis que un autre conteneur hébergeait une instance de WordPress sur laquelle un défi exploitait une vulnérabilité XSS.
+
+Des défis de cryptographie ont également été conçus en Python. Enfin, certains défis visent à sensibiliser les participants aux risques liés à la protection des données personnelles, en lien avec le RGPD.
+
+
+Notre équipe a également adopté la méthode agile pour organiser notre projet et améliorer notre productivité.
+
+
+#### Ce que j'ai appris
+
+Ce projet m’a permis de développer mes compétences, en particulier dans l’utilisation de Docker pour le déploiement de conteneurs, ainsi qu’en bash lors de la création des défis en lien avec SSH.
