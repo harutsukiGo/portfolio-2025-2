@@ -1,7 +1,7 @@
 ---
 title: CTF - Capture The Flag
 publishDate: 2024-09-24 00:00:00
-img: /assets/stock-2.jpg
+img: /gif/ctfd-hq2.gif
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
   L'association Yggame nous à confié la mission de créer un CTF pour un de leurs événements.
